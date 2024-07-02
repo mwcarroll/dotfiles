@@ -40,17 +40,33 @@
                 },
                 {
                     "background": "#303030",
+                    "foreground": "#707070",
+                    "style": "diamond",
+                    "template": "\ue0b1 on ",
+                    "type": "git"
+                },
+                {
+                    "background": "#303030",
+                    "foreground": "#00AAFF",
+                    "properties": {
+                        "fetch_upstream_icon": true
+                    },
+                    "style": "diamond",
+                    "template": "{{ .UpstreamIcon }}",
+                    "type": "git"
+                },
+                {
+                    "background": "#303030",
                     "foreground": "#5FAF00",
                     "properties": {
                         "branch_icon": "\uf418 ",
                         "branch_ahead_icon": "\uf14ca ",
                         "branch_behind_icon": "\uf14cb ",
                         "fetch_stash_count": true,
-                        "fetch_status": true,
-                        "fetch_upstream_icon": true
+                        "fetch_status": true
                     },
                     "style": "diamond",
-                    "template": "<#707070>\ue0b1 on </>{{ .UpstreamIcon }}{{ .HEAD }}",
+                    "template": "{{ .HEAD }}",
                     "type": "git"
                 },
                 {
