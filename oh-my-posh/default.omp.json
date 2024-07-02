@@ -42,6 +42,9 @@
                     "background": "#303030",
                     "foreground": "#5FAF00",
                     "properties": {
+                        "branch_icon": "\uf418 ",
+                        "branch_ahead_icon": "\uf14ca ",
+                        "branch_behind_icon": "\uf14cb ",
                         "fetch_stash_count": true,
                         "fetch_status": true,
                         "fetch_upstream_icon": true
