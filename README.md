@@ -4,10 +4,9 @@
 - [Windows Terminal Preview v1.20+](https://github.com/microsoft/terminal/releases)
 - [Chocolatey](https://chocolatey.org/)
 - [Oh My Posh](https://ohmyposh.dev/)
-# iTerm 2 (macOS)
-![image](https://github.com/mwcarroll/dotfiles/assets/164166/bc3de15e-2073-4eb1-9ec4-685c79056dbb)
+# Alacritty (macOS/nix)
+
 ## Requirements
-- [iTerm 2](https://iterm2.com/)
+![image](https://github.com/user-attachments/assets/81bd721b-5b73-48b2-94ca-4cba30bc5521)
 - [Homebrew](https://brew.sh/)
 - [Oh My Posh](https://ohmyposh.dev/)
-- [Oh My Zsh](https://ohmyz.sh/)
