@@ -1,5 +1,4 @@
-Import-Module posh-git
-oh-my-posh init pwsh --config "$env:USERPROFILE/default.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "$env:DOT_FILES/oh-my-posh/default.omp.json" | Invoke-Expression
 
 # Import the Chocolatey Profile that contains the necessary code to enable
 # tab-completions to function for `choco`.
